@@ -1,0 +1,19 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies & Build artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Netlify local cache
+.netlify/
+
+# Editor & IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo

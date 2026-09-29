@@ -1,0 +1,19 @@
+{
+  "name": "codealpha-image-gallery",
+  "version": "1.0.0",
+  "description": "Interactive Image Gallery with Lightbox Navigation, Categories, Search, and Filters for CodeAlpha Task 1",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "image-gallery",
+    "lightbox",
+    "codealpha",
+    "javascript",
+    "frontend"
+  ],
+  "author": "Anshita Chaudhary",
+  "license": "MIT"
+}

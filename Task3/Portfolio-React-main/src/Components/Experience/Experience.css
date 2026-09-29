@@ -1,0 +1,128 @@
+.experience-section {
+  padding: 80px 0;
+  position: relative;
+}
+
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-card {
+  position: relative;
+  padding: 32px;
+  border-radius: 20px;
+  border-left: 4px solid var(--primary-accent);
+}
+
+.timeline-badge-icon {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary-gradient);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.role-type-tag {
+  display: inline-block;
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.role-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+}
+
+.company-name {
+  font-size: 1.1rem;
+  color: #c084fc;
+  font-weight: 600;
+}
+
+.meta-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.exp-description {
+  color: #d1d5db;
+  font-size: 0.98rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.exp-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.bullet-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #9ca3af;
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+.bullet-icon {
+  color: #38bdf8;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.exp-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 600px) {
+  .timeline-card {
+    padding: 24px 18px;
+  }
+  .timeline-badge-icon {
+    left: 16px;
+  }
+  .timeline-header {
+    flex-direction: column;
+  }
+}
